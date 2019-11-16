@@ -1,0 +1,25 @@
+.day-weather{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 200px;
+    width: 200px;
+    align-items: center;
+    background-color: whitesmoke;
+    border: 1px solid darkgray;
+    color: black;
+    margin: 2px;
+}
+.weather-conditions{
+    display: flex;
+    justify-content: space-around;
+}
+
+.weather-temp{
+    color: darkgray;
+    margin-right: 5px;
+}
+
+.weather-desc{
+    font-weight: bold;
+}

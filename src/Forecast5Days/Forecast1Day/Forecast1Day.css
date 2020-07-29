@@ -3,12 +3,17 @@
     flex-direction: column;
     justify-content: space-evenly;
     height: 200px;
-    width: 200px;
+    width: 140px;
+
     align-items: center;
     background-color: whitesmoke;
     border: 1px solid darkgray;
     color: black;
-    margin: 2px;
+    margin: 3px;
+    padding: 10px;
+}
+.weather-icon{
+    width: 100px;
 }
 .weather-conditions{
     display: flex;
